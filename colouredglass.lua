@@ -18,7 +18,7 @@
  with this program.  If not, see <http://www.gnu.org/licenses/>.
 --]]
 
-minetest.register_node("vanilla_plus:colorglass_black", {
+minetest.register_node("vanilla_plus:colouredglass_black", {
 	description = "Black Glass",
 	drawtype = "glasslike",
 	tiles = {"blackglass.png"},
@@ -28,7 +28,7 @@ minetest.register_node("vanilla_plus:colorglass_black", {
 	sounds = default.node_sound_glass_defaults(),
 	groups = {cracky=3,oddly_breakable_by_hand=3},
 })
-minetest.register_node("vanilla_plus:colorglass_blue", {
+minetest.register_node("vanilla_plus:colouredglass_blue", {
 	description = "Blue Glass",
 	drawtype = "glasslike",
 	tiles = {"blueglass.png"},
@@ -38,7 +38,7 @@ minetest.register_node("vanilla_plus:colorglass_blue", {
 	sounds = default.node_sound_glass_defaults(),
 	groups = {cracky=3,oddly_breakable_by_hand=3},
 })
-minetest.register_node("vanilla_plus:colorglass_darkblue", {
+minetest.register_node("vanilla_plus:colouredglass_darkblue", {
 	description = "Dark Blue Glass",
 	drawtype = "glasslike",
 	tiles = {"darkblueglass.png"},
@@ -48,7 +48,7 @@ minetest.register_node("vanilla_plus:colorglass_darkblue", {
 	sounds = default.node_sound_glass_defaults(),
 	groups = {cracky=3,oddly_breakable_by_hand=3},
 })
-minetest.register_node("vanilla_plus:colorglass_green", {
+minetest.register_node("vanilla_plus:colouredglass_green", {
 	description = "Green Glass",
 	drawtype = "glasslike",
 	tiles = {"greenglass.png"},
@@ -58,7 +58,7 @@ minetest.register_node("vanilla_plus:colorglass_green", {
 	sounds = default.node_sound_glass_defaults(),
 	groups = {cracky=3,oddly_breakable_by_hand=3},
 })
-minetest.register_node("vanilla_plus:colorglass_orange", {
+minetest.register_node("vanilla_plus:colouredglass_orange", {
 	description = "Orange Glass",
 	drawtype = "glasslike",
 	tiles = {"orangeglass.png"},
@@ -68,7 +68,7 @@ minetest.register_node("vanilla_plus:colorglass_orange", {
 	sounds = default.node_sound_glass_defaults(),
 	groups = {cracky=3,oddly_breakable_by_hand=3},
 })
-minetest.register_node("vanilla_plus:colorglass_pink", {
+minetest.register_node("vanilla_plus:colouredglass_pink", {
 	description = "Pink Glass",
 	drawtype = "glasslike",
 	tiles = {"pinkglass.png"},
@@ -78,7 +78,7 @@ minetest.register_node("vanilla_plus:colorglass_pink", {
 	sounds = default.node_sound_glass_defaults(),
 	groups = {cracky=3,oddly_breakable_by_hand=3},
 })
-minetest.register_node("vanilla_plus:colorglass_purple", {
+minetest.register_node("vanilla_plus:colouredglass_purple", {
 	description = "Purple Glass",
 	drawtype = "glasslike",
 	tiles = {"purpleglass.png"},
@@ -88,7 +88,7 @@ minetest.register_node("vanilla_plus:colorglass_purple", {
 	sounds = default.node_sound_glass_defaults(),
 	groups = {cracky=3,oddly_breakable_by_hand=3},
 })
-minetest.register_node("vanilla_plus:colorglass_red", {
+minetest.register_node("vanilla_plus:colouredglass_red", {
 	description = "Red Glass",
 	drawtype = "glasslike",
 	tiles = {"redglass.png"},
@@ -98,7 +98,7 @@ minetest.register_node("vanilla_plus:colorglass_red", {
 	sounds = default.node_sound_glass_defaults(),
 	groups = {cracky=3,oddly_breakable_by_hand=3},
 })
-minetest.register_node("vanilla_plus:colorglass_white", {
+minetest.register_node("vanilla_plus:colouredglass_white", {
 	description = "White Glass",
 	drawtype = "glasslike",
 	tiles = {"whiteglass.png"},
@@ -108,7 +108,7 @@ minetest.register_node("vanilla_plus:colorglass_white", {
 	sounds = default.node_sound_glass_defaults(),
 	groups = {cracky=3,oddly_breakable_by_hand=3},
 })
-minetest.register_node("vanilla_plus:colorglass_yellow", {
+minetest.register_node("vanilla_plus:colouredglass_yellow", {
 	description = "Yellow Glass",
 	drawtype = "glasslike",
 	tiles = {"yellowglass.png"},
@@ -123,7 +123,7 @@ minetest.register_node("vanilla_plus:colorglass_yellow", {
 
 minetest.register_craft({
 	type = "shapeless",
-	output = 'vanilla_plus:colorglass_black',
+	output = 'vanilla_plus:colouredglass_black',
 	recipe = {
 		"dye:black",
 		"default:glass",
@@ -132,7 +132,7 @@ minetest.register_craft({
 
 minetest.register_craft({
 	type = "shapeless",
-	output = 'vanilla_plus:colorglass_blue',
+	output = 'vanilla_plus:colouredglass_blue',
 	recipe = {
 		"dye:skyblue",
 		"default:glass",
@@ -141,7 +141,7 @@ minetest.register_craft({
 
 minetest.register_craft({
 	type = "shapeless",
-	output = 'vanilla_plus:colorglass_darkblue',
+	output = 'vanilla_plus:colouredglass_darkblue',
 	recipe = {
 		"dye:blue",
 		"default:glass",
@@ -150,7 +150,7 @@ minetest.register_craft({
 
 minetest.register_craft({
 	type = "shapeless",
-	output = 'vanilla_plus:colorglass_green',
+	output = 'vanilla_plus:colouredglass_green',
 	recipe = {
 		"dye:green",
 		"default:glass",
@@ -159,7 +159,7 @@ minetest.register_craft({
 
 minetest.register_craft({
 	type = "shapeless",
-	output = 'vanilla_plus:colorglass_orange',
+	output = 'vanilla_plus:colouredglass_orange',
 	recipe = {
 		"dye:orange",
 		"default:glass",
@@ -168,7 +168,7 @@ minetest.register_craft({
 
 minetest.register_craft({
 	type = "shapeless",
-	output = 'vanilla_plus:colorglass_pink',
+	output = 'vanilla_plus:colouredglass_pink',
 	recipe = {
 		"dye:pink",
 		"default:glass",
@@ -177,7 +177,7 @@ minetest.register_craft({
 
 minetest.register_craft({
 	type = "shapeless",
-	output = 'vanilla_plus:colorglass_purple',
+	output = 'vanilla_plus:colouredglass_purple',
 	recipe = {
 		"dye:violet",
 		"default:glass",
@@ -186,7 +186,7 @@ minetest.register_craft({
 
 minetest.register_craft({
 	type = "shapeless",
-	output = 'vanilla_plus:colorglass_:red',
+	output = 'vanilla_plus:colouredglass_:red',
 	recipe = {
 		"dye:red",
 		"default:glass",
@@ -195,7 +195,7 @@ minetest.register_craft({
 
 minetest.register_craft({
 	type = "shapeless",
-	output = 'vanilla_plus:colorglass_:red',
+	output = 'vanilla_plus:colouredglass_:red',
 	recipe = {
 		"dye:red",
 		"default:glass",
@@ -204,7 +204,7 @@ minetest.register_craft({
 
 minetest.register_craft({
 	type = "shapeless",
-	output = 'vanilla_plus:colorglass_white',
+	output = 'vanilla_plus:colouredglass_white',
 	recipe = {
 		"dye:white",
 		"default:glass",
@@ -213,7 +213,7 @@ minetest.register_craft({
 
 minetest.register_craft({
 	type = "shapeless",
-	output = 'vanilla_plus:colorglass_yellow',
+	output = 'vanilla_plus:colouredglass_yellow',
 	recipe = {
 		"dye:yellow",
 		"default:glass",
