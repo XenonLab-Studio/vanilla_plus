@@ -21,8 +21,8 @@
 --]]
 
 
-minetest.register_node("vanilla_plus:picture_wooden_planks", {
-	description = "Picture 1",
+minetest.register_node("vanilla_plus:xenon_avatar", {
+	description = "XenonCoder Avatar",
 	drawtype = "nodebox",
 	tiles = {"xenon_avatar.png"},
 	paramtype = "light",
