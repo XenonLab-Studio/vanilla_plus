@@ -24,7 +24,7 @@
 minetest.register_node("vanilla_plus:picture_wooden_planks", {
 	description = "Picture 1",
 	drawtype = "nodebox",
-	tiles = {"XenonCoder_avatar.png"},
+	tiles = {"xenon_avatar.png"},
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
