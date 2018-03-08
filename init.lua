@@ -32,8 +32,13 @@ dofile(minetest.get_modpath('vanilla_plus')..'/sofas.lua')
 dofile(minetest.get_modpath('vanilla_plus')..'/tables.lua')
 dofile(minetest.get_modpath('vanilla_plus')..'/pictures.lua')
 dofile(minetest.get_modpath('vanilla_plus')..'/glow_blocks.lua')
+<<<<<<< HEAD
 dofile(minetest.get_modpath('vanilla_plus')..'/colouredglass.lua')
 dofile(minetest.get_modpath('vanilla_plus')..'/colouredstone.lua')
+=======
+dofile(minetest.get_modpath('vanilla_plus')..'/colorglass.lua')
+dofile(minetest.get_modpath('vanilla_plus')..'/colorstone.lua')
+>>>>>>> 2bc8d4e787f102368096622396e237c094d3752d
 dofile(minetest.get_modpath('vanilla_plus')..'/colouredstonebricks.lua')
 dofile(minetest.get_modpath('vanilla_plus')..'/plasticbox.lua')
 dofile(minetest.get_modpath('vanilla_plus')..'/trashcan.lua')
