@@ -33,6 +33,7 @@ dofile(minetest.get_modpath('vanilla_plus')..'/tables.lua')
 dofile(minetest.get_modpath('vanilla_plus')..'/pictures.lua')
 dofile(minetest.get_modpath('vanilla_plus')..'/glow_blocks.lua')
 dofile(minetest.get_modpath('vanilla_plus')..'/colorglass.lua')
+dofile(minetest.get_modpath('vanilla_plus')..'/colorstone.lua')
 dofile(minetest.get_modpath('vanilla_plus')..'/trashcan.lua')
 
 -- Crafting
