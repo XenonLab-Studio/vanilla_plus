@@ -37,15 +37,8 @@ minetest.register_node("vanilla_plus:picture_wooden_planks", {
 		node_box = {
 		type = "fixed",
 		fixed = {
-			{-0.5, -0.5, 0.4375, 0.5, 0.5, 0.5}, -- NodeBox1
+			{-0.5, -0.5, 0.4375, 0.5, 0.5, 0.5},
 		}
 	}
 })
-
-
--- Quadro doppio
-
--- {-0.5, -0.5, 0.4375, 1.5, 0.5, 0.5}, -- NodeBox1
-
-
 
